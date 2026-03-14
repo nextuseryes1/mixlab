@@ -1,6 +1,8 @@
-ignoredBuiltDependencies:
+onlyBuiltDependencies:
+  - '@prisma/engines'
+  - '@sentry/cli'
+  - argon2
+  - msw
+  - prisma
   - sharp
   - unrs-resolver
-
-onlyBuiltDependencies:
-  - msw
