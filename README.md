@@ -26,12 +26,12 @@ Full-stack SaaS demo: pet pharmacy platform built with Next.js, Prisma, Stripe a
 
 Clone the repository:
 
-git clone https://github.com/your-username/mixlab.git
+git clone https://github.com/nextuseryes1/mixlab.git
 cd mixlab
 
 Install dependencies:
 
-npm install
+pnpm install
 
 Setup environment variables:
 
