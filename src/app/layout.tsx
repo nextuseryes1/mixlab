@@ -1,5 +1,7 @@
+import { Toaster } from 'sonner'
 import './globals.css'
 import { organizationJsonLd, websiteJsonLd } from './jsonld'
+import { ClientProvider } from './providers/ClientProvider'
 
 export { metadata } from './metadata'
 
@@ -14,7 +16,9 @@ export default function RootLayout({ children }: Props) {
         <meta name="apple-mobile-web-app-title" content="Mixlab" />
       </head>
       <body className={`antialiased`}>
-        {children}
+        <ClientProvider>{children}</ClientProvider>
+
+        <Toaster />
 
         <script
           type="application/ld+json"
